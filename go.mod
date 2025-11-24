@@ -1,4 +1,4 @@
-module github.com/gosuda/httpwrap
+module github.com/DustRaven/httpwrap
 
 go 1.24.2
 
