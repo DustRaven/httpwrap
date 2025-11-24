@@ -7,7 +7,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/gosuda/httpwrap/httperror"
+	"github.com/DustRaven/httpwrap/httperror"
 )
 
 // Mux wraps http.ServeMux with enhanced error handling capabilities.

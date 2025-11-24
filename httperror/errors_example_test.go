@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/gosuda/httpwrap/httperror"
-	"github.com/gosuda/httpwrap/wrapper/httpwrap"
+	"github.com/DustRaven/httpwrap/httperror"
+	"github.com/DustRaven/httpwrap/wrapper/httpwrap"
 )
 
 // ExampleHttpError_contentType demonstrates how to use HttpError with custom Content-Type headers.

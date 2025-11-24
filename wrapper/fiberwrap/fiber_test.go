@@ -9,8 +9,8 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 
-	"github.com/gosuda/httpwrap/httperror"
-	"github.com/gosuda/httpwrap/wrapper/fiberwrap"
+	"github.com/DustRaven/httpwrap/httperror"
+	"github.com/DustRaven/httpwrap/wrapper/fiberwrap"
 )
 
 func TestNewWrapper(t *testing.T) {

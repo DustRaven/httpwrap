@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/gosuda/httpwrap/httperror"
+	"github.com/DustRaven/httpwrap/httperror"
 )
 
 func TestMux_HandleWithContentType(t *testing.T) {

@@ -8,7 +8,7 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 
-	"github.com/gosuda/httpwrap/httperror"
+	"github.com/DustRaven/httpwrap/httperror"
 )
 
 // Wrapper wraps a Fiber application with error handling capabilities.

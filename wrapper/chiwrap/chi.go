@@ -9,7 +9,7 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	"github.com/gosuda/httpwrap/httperror"
+	"github.com/DustRaven/httpwrap/httperror"
 )
 
 // Router wraps chi.Router with enhanced error handling capabilities.
