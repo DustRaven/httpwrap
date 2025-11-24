@@ -64,6 +64,11 @@ func (r *Router) Handle(pattern string, handler HandlerFunc) {
 	})
 }
 
+// Use applies middleware to the underlying chi router.
+func (r *Router) Use(middlewares ...func(http.Handler) http.Handler) {
+	r.router.Use(middlewares...)
+}
+
 // Get registers a new GET handler for the given pattern with automatic error handling.
 func (r *Router) Get(pattern string, handler HandlerFunc) {
 	r.router.Get(pattern, func(writer http.ResponseWriter, request *http.Request) {
